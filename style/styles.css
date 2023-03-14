@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+    /* I used these two properties as I saw them in
+       some of the flexbox excercises and they seem
+       helpful. In particular margin: 0 */
     margin: 0;
-    font-family: Roboto, sans-serif;
     min-height: 100vh;
+    
+    font-family: Roboto, sans-serif;
 }
 
 .section-one {
