@@ -6,11 +6,6 @@ body {
     min-height: 100vh;
 }
 
-a {
-    text-decoration: none;
-    padding: 4px;
-}
-
 .section-one {
     padding-top: 16px;
     padding-left: 64px;
@@ -46,6 +41,7 @@ a {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: lighter;
+    text-decoration: none;
     padding-left: 8px;
     padding-right: 8px;
 }
