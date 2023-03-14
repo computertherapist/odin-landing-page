@@ -84,6 +84,7 @@ a {
     margin: 0px;
     padding: 12px;
     border-radius: 8px;
+    border: 0px;
     align-self: flex-start;
     background-color: #3882F6;
     color: #e5e7eb;
