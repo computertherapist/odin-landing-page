@@ -12,8 +12,8 @@ a {
 }
 
 .section-one {
-    padding-left: 92px;
-    padding-right: 92px;
+    padding-left: 32px;
+    padding-right: 32px;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -23,6 +23,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.nav {
+    padding-left: 12px;
 }
 
 .section-one > .header > .nav  > ul {
@@ -41,19 +45,20 @@ a {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
+    padding-left: 12px;
 }
 
 .hero {
     display: flex;
     justify-content: space-around;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 300px;
 
 }
 
@@ -68,7 +73,7 @@ a {
 .hero-content > p {
     display: flex;
     margin: 0px;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
     font-size: 18px;
     font-weight: lighter;
     color: #e5e7eb;
@@ -86,6 +91,7 @@ a {
 
 .hero-image {
     display: flex;
+    padding-left: 12px;
 }
 
 .hero-image > img {
