@@ -22,7 +22,6 @@ a {
 
 .section-one > .links > ul {
     display: flex;
-
     list-style-type: none;
 }
 
