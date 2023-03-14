@@ -32,8 +32,8 @@ a {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
-    /* padding-left: 12px; */
 }
+
 .nav  > ul {
     display: flex;
     margin-top: auto;
