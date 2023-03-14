@@ -57,7 +57,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 300px;
-
 }
 
 .hero-text {
@@ -97,4 +96,3 @@ body {
     height: 265px;
     padding-right: 8px;
 }
-
