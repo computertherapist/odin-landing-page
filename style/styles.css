@@ -123,22 +123,31 @@ body {
     justify-content: space-evenly;
 }
 
+.card-one, .card-two, .card-three, .card-four, 
+.card-img-one, .card-img-two, .card-img-three, .card-img-four, 
+.card-one-text, .card-two-text, .card-three-text, .card-four-text {
+    width: 165px;
+    height: 150px;
+}
+
+.card-one, .card-two, .card-three, .card-four,
+.card-img-one, .card-img-two, .card-img-three, .card-img-four {
+    border-radius: 8%;
+}
+
 .card-one, .card-two, .card-three, .card-four {
     border: 2px solid #3882F6;
-    border-radius: 8%;
-    width: 125px;
-    height: 125px;
+}
+
+.card-one-text, .card-two-text, .card-three-text, .card-four-text {
+    color: #1F2937;
+    text-align: center;
 }
 
 .card-grid-text {
     display: flex;
     justify-content: space-evenly;
-    
 }
 
-.card-one-text, .card-two-text, .card-three-text, .card-four-text {
-    width: 125px;
-    height: 125px;
-    color: #1F2937;
-    text-align: center;
-}
+
+
