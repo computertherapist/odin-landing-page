@@ -29,18 +29,18 @@ a {
     padding-left: 12px;
 }
 
-.section-one > .header > .nav  > ul {
+.nav  > ul {
     display: flex;
     list-style-type: none;
 }
 
-.section-one > .header > .nav > ul > li > a {
+.nav-links {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: lighter;
 }
 
-.section-one > .header > .logo > p {
+.logo-text {
     display: flex;
     color: #f9faf8;
     font-size: 24px;
@@ -62,7 +62,7 @@ a {
 
 }
 
-.hero-content > h1 {
+.hero-text {
     display: flex;
     margin: 8px;
     font-size: 48px;
@@ -70,7 +70,7 @@ a {
     color: #f9faf8;
 }
 
-.hero-content > p {
+.hero-description {
     display: flex;
     margin: 0px;
     padding-bottom: 12px;
@@ -79,7 +79,7 @@ a {
     color: #e5e7eb;
 }
 
-.hero-content > .hero-button {
+.hero-button {
     display: flex;
     margin: 0px;
     padding: 12px;
