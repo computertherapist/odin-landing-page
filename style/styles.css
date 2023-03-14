@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
 
 body {
     /* I used these two properties as I saw them in
@@ -14,7 +14,7 @@ body {
     padding-top: 16px;
     padding-left: 64px;
     padding-right: 64px;
-    padding-bottom: 82px;
+    padding-bottom: 64px;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -44,7 +44,7 @@ body {
 .nav-links {
     color: #e5e7eb;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
     text-decoration: none;
     padding-left: 8px;
     padding-right: 8px;
@@ -66,7 +66,7 @@ body {
 .hero-text {
     margin: 8px;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -74,7 +74,7 @@ body {
     margin: 0px;
     padding-bottom: 12px;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
     color: #e5e7eb;
 }
 
@@ -98,7 +98,7 @@ body {
     padding-top: 32px;
     padding-left: 64px;
     padding-right: 64px;
-    padding-bottom: 48px;
+    padding-bottom: 32px;
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
@@ -114,7 +114,7 @@ body {
     margin-bottom: 0;
     padding-bottom: 32px;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #1F2937;
 }
 
@@ -150,5 +150,37 @@ body {
 }
 
 .section-three {
-    
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 128px;
+    padding-right: 128px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote {
+    width: 500px;
+    height: 150px;
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-credit {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 32px;
+}
+
+.quote-author {
+    margin: 0;
 }
