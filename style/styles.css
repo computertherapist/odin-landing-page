@@ -93,3 +93,49 @@ body {
     height: 265px;
     padding-right: 8px;
 }
+
+.section-two {
+    padding-top: 16px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+}
+
+.section-two-header {
+    display: flex;
+    justify-content: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-one, .card-two, .card-three, .card-four {
+    border: 2px solid #3882F6;
+    border-radius: 8%;
+    width: 125px;
+    height: 125px;
+}
+
+.card-grid-text {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card-one-text, .card-two-text, .card-three-text, .card-four-text {
+    width: 125px;
+    height: 125px;
+    color: #1F2937;
+    text-align: center;
+}
